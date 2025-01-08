@@ -35,7 +35,7 @@ keyInput.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
 keyInput.Parent = frame
 
 -- Link to be copied
-local siteLink = "https://link-center.net/1274744/arsenal-script" -- Put your desired link here
+local siteLink = "https://linkvertise.com/1274744/murder-mystery-2-script?o=sharing" -- Put your desired link here
 
 -- When the Get Key button is clicked, copy the link to clipboard and change button text
 getKeyButton.MouseButton1Click:Connect(function()
@@ -48,7 +48,7 @@ end)
 
 -- When the Check Key button is clicked, perform validation
 checkKeyButton.MouseButton1Click:Connect(function()
-    if keyInput.Text == "ARSGKU" then
+    if keyInput.Text == "ARSGQH" then
         print("Key is correct, script is being executed and screen will close in 5 seconds...")
 
         -- Execute the script using loadstring
